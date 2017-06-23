@@ -83,7 +83,7 @@ html { overflow-y: scroll; }
         $dirs:top right bottom left;
         @for $n from 1 through 4{
             @if nth($vals,$n) != n{
-                #{nth($dirs,$n)}:nth($vals,$n) + px;
+                #{nth($dirs,$n)}:nth($vals,$n);
             }
         }
     }
@@ -94,7 +94,7 @@ html { overflow-y: scroll; }
         $dirs:top right bottom left;
         @for $n from 1 through 4{
             @if nth($vals,$n) != n{
-                #{nth($dirs,$n)}:nth($vals,$n) + px;
+                #{nth($dirs,$n)}:nth($vals,$n);
             }
         }
     }
@@ -105,7 +105,7 @@ html { overflow-y: scroll; }
         $dirs:top right bottom left;
         @for $n from 1 through 4{
             @if nth($vals,$n) != n{
-                #{nth($dirs,$n)}:nth($vals,$n) + px;
+                #{nth($dirs,$n)}:nth($vals,$n);
             }
         }
     }
